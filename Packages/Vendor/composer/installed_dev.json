@@ -1,0 +1,53 @@
+[
+    {
+        "name": "mikey179/vfsStream",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikey179/vfsStream",
+            "reference": "v1.1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/mikey179/vfsStream/zipball/v1.1.0",
+            "reference": "v1.1.0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-08-25 12:49:29",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "org\\bovigo\\vfs": "src/main/php"
+            }
+        },
+        "license": [
+            "BSD"
+        ],
+        "homepage": "http://vfs.bovigo.org/"
+    },
+    {
+        "name": "typo3/buildessentials",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git://git.typo3.org/FLOW3/BuildEssentials.git",
+            "reference": "d0c058b70c205e2fa9f0b94bfc378e0ed2f8c2d1"
+        },
+        "require": {
+            "php": ">=5.3.2",
+            "typo3/flow-composer-installers": "*"
+        },
+        "type": "typo3-flow-build",
+        "installation-source": "source",
+        "license": [
+            "LGPL-3.0+"
+        ],
+        "description": "TYPO3 Flow Build Toolchain Essentials"
+    }
+]

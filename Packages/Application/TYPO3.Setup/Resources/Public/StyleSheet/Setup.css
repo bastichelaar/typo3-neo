@@ -1,0 +1,60 @@
+body {
+	background: #eee url('../Images/TYPO3_logo.png') right top no-repeat;
+	margin: 2em;
+}
+
+code {
+	word-break: break-all;
+}
+
+form {
+	margin: 0;
+}
+
+legend {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.alert-OK {
+	background-color: #DFF0D8;
+	border-color: #D6E9C6;
+}
+.alert-OK, .alert-OK .alert-heading {
+	color: #468847;
+}
+
+.alert-Error {
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+}
+.alert-Error, .alert-Error .alert-heading {
+	color: #B94A48;
+}
+
+.alert-Notice {
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+}
+.alert-Notice, .alert-Notice .alert-heading {
+	color: #3A87AD;
+}
+
+.loading {
+	background: transparent url('../Images/loading.gif') 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+}
+div.error, .error .help-inline {
+	color: #B94A48;
+}
+input.error {
+	border-color: #B94A48;
+}
+div.success {
+	color: #468847;
+}
+
+#finalStep .modal-footer {
+	display: none;
+}

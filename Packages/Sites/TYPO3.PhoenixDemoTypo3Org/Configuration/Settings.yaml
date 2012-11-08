@@ -1,0 +1,37 @@
+#                                                                        #
+# Settings                                                               #
+#                                                                        #
+
+TYPO3:
+  TYPO3CR:
+    contentTypes:
+      'TYPO3.PhoenixDemoTypo3Org:Registration':
+        superTypes: ['TYPO3.Phoenix.ContentTypes:Plugin']
+        label: 'Editor Registration Plugin'
+
+      'TYPO3.PhoenixDemoTypo3Org:YouTube':
+        superTypes: ['TYPO3.Phoenix.ContentTypes:Headline']
+        icon: 'Images/Icons/White/youtube_icon-16.png'
+        label: 'YouTube'
+        properties:
+          video:
+            type: string
+            label: 'ID'
+            default: ''
+            group: 'video'
+            reloadOnChange: true
+          width:
+            type: integer
+            label: 'Width'
+            default: '400'
+            group: 'video'
+            reloadOnChange: true
+          height:
+            type: integer
+            label: 'Height'
+            default: '300'
+            group: 'video'
+            reloadOnChange: true
+        groups:
+          video:
+            label: 'Video'

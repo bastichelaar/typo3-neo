@@ -1,0 +1,15 @@
+{
+    "name": "typo3/aloha",
+    "type": "typo3-flow-package",
+    "description": "A packaged version of Aloha for TYPO3 Phoenix.",
+    "version": "",
+    "require": {
+        "typo3/flow": "*",
+        "typo3/fluid": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "TYPO3\\Aloha": "Classes"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+TYPO3:
+  Aloha:
+    # if TRUE, will use the git submodule of Aloha instead of the directly-included source.
+    alohaDevelopmentMode: FALSE
